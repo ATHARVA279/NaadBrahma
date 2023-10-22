@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruments</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="re-header">
+        <nav>
+            <div class="menu">
+              <div class="logo">
+                <a href="#" class="logo">NAAD BRAHMA</a>
+              </div>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About.html">About Us</a></li>
+                <li><a href="./instruments.html">Instruments</a></li>
+                <li><a href="../Ecommerce website/index.html">Buy</a></li>
+                <li><a href="./Contact.html">Contact Us</a></li>
+                <!-- <img src="./images/moon.png" id="moon"> -->
+      
+              </ul>
+            </div>
+          </nav>
+        <h1>TABLA</h1>
+    </section>
+
+    <section class="DHA">
+
+    <div class="origin1">
+        <h1>Origin</h1>
+        <ul>
+            <li>The tabla is a traditional percussion instrument that has its origins in India.</li>
+            <li>It is an integral part of Indian classical music, and its history can be traced back over several centuries.</li>
+            <li>The exact origin of the tabla is somewhat debated, but it is generally believed to have evolved from a variety of hand-drums and percussion instruments that were used in different regions of India.</li>
+            <li>The tabla as we know it today is thought to have emerged during the medieval period.</li>
+        </ul>
+    </div>
+
+    <div class="Gharanas1">
+        <h1>Tabla Gharanas and Styles</h1>
+        <ul>
+            <li>The tabla is deeply rooted in Indian classical music, with different regions giving rise to distinctive playing styles or gharanas.</li>
+            <li>Prominent gharanas include the Delhi, Ajrara, Farukhabad, Benaras, and Punjab styles, each with its unique characteristics.</li>
+            <li>These gharanas are a testament to the diversity and richness of tabla playing techniques and traditions.</li>
+            <li>Tabla players often identify with a specific gharana and receive training in its unique approach.</li>
+        </ul>
+    </div>
+
+    <div class="sounds-tabla">
+        <h1>Play tabla!!</h1>
+        <ul>
+            <li>S - Ghe sound</li>
+            <li>D - Ga sound</li>
+            <li>F - Na sound</li>
+            <li>G - Tin sound</li>
+            <li>H - Tun sound</li>
+            <li>S & F - Dha sound</li>
+            <li>S & G- Dhin sound</li>
+        </ul>
+    </div>
+
+    <div class="play">
+        <div class="brown-d"></div>
+        <div class="Outer-d "></div>
+        <div class="inner-d playable" id="S">S</div>
+        <div class="black-d playable" id="D">D</div>
+           
+
+        <div class="brown-t"></div>
+        <div class="Outer-t playable"  id="F">F</div>
+        <div class="inner-t playable"  id="G">G</div>
+        <div class="black-t playable"  id="H">H</div>
+
+        <audio data-key="S"  src="./TUNES/ghe.wav"></audio>
+        <audio data-key="D"  src="./TUNES/ga.wav"></audio>
+        <audio data-key="F"  src="./TUNES/na (1).wav"></audio>
+        <audio data-key="G"  src="./TUNES/tin.wav"></audio>
+        <audio data-key="H"  src="./TUNES/tun.wav"></audio>
+    </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>company</h4>
+             <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Instruments</a></li>
+               <li><a href="#">Contact Us</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Shop</h4>
+             <ul>
+               <li><a href="#">Tabla</a></li>
+               <li><a href="#">Sitar</a></li>
+               <li><a href="#">Harmonium</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>follow us</h4>
+             <div class="social-links">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+           <div>
+            <img src="./images/logo - Copy.png" id="logo">
+           </div>
+         </div>
+        </div>
+     </footer>
+
+     
+    <script src="./app.js"></script>
+   
+     <!-- <script>
+      const keys = document.querySelectorAll('.playable')
+
+      keys.forEach(key => {
+        key.addEventListener('click', ()=> playNote(key))
+      })
+
+      function playNote(key){
+        const noteAudio = document.getElementById(key.dataset.note)
+        noteAudio.play()
+        noteAudio.currentTime = 0
+        noteAudio.play()
+
+      }
+
+
+     </script> -->
+
+</body>
+</html>
